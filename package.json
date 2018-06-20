@@ -7,11 +7,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "discord.js": "11.1.0",
-    "request": "2.81.0"
-    "youtube-playlist-info" "^0.1.0",
+    "youtube-playlist-info": "^0.1.0",
     "ytdl-core": "^0.20.3",
     "ytsearcher": "^1.0.3"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+    
   },
   "keywords": [
     "discord",
