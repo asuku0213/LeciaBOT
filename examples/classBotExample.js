@@ -20,4 +20,4 @@ client.music.start(client, {
   youtubeKey: "AIzaSyAQKr5kSLqOb9B1ZWxoQIWhLXwkh88Yahw"
 });
 
-client.login(client.settings.token);
+client.login(process.env.BOT_TOKEN);
