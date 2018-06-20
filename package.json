@@ -1,10 +1,10 @@
 {
-  "name": "LeciaBOT",
-  "version": "12.0.6",
-  "description": "LeciaChan",
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node index.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
