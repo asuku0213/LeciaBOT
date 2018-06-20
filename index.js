@@ -6,14 +6,6 @@ const {YTSearcher} = require('ytsearcher');
 const ypi = require('youtube-playlist-info');
 const PACKAGE = require('./package.json');
 
-/*
- * Takes a discord.js client and turns it into a music bot.
- * Extra thanks to Rodabaugh (Erik) for helping with some tweaks and ideas.
- *
- * @param {Client} client - The discord.js client.
- * @param {object} options - Options to configure the client bot.
- */
-
 exports.start = (client, options) => {
   class Music {
     constructor(client, options) {
