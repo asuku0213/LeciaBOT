@@ -7,6 +7,18 @@ client.on("ready", () => {
   client.user.setActivity(`Serving ${client.guilds.size} servers`);
 });
 
+client.on("message", (message) => {
+  if (message.content.startsWith("こんにちは")) {
+    message.channel.send("こんにちは！");
+  }
+});
+
+client.on("message", (message) => {
+  if (message.content.startsWith("おはよう")) {
+    message.channel.send("おはようございます！");
+  }
+});
+
 client.on("guildCreate", guild => {
   console.log(`New guild joined: ${guild.name} (id: ${guild.id}). This guild has ${guild.memberCount} members!`);
   client.user.setActivity(`Serving ${client.guilds.size} servers`);
@@ -84,22 +96,6 @@ client.on("message", async message => {
     const fetched = await message.channel.fetchMessages({limit: deleteCount});
     message.channel.bulkDelete(fetched)
       .catch(error => message.reply(`Couldn't delete messages because of: ${error}`));
-  }
-});
-
-client.on("ready", () => {
-  console.log("I am ready!");
-});
-
-client.on("message", (message) => {
-  if (message.content.startsWith("こんにちは")) {
-    message.channel.send("こんにちは！");
-  }
-});
-
-client.on("message", (message) => {
-  if (message.content.startsWith("おはよう")) {
-    message.channel.send("おはようございます！");
   }
 });
 
