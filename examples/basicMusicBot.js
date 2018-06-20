@@ -7,7 +7,7 @@ client.on('ready', () => {
 });
 
 Music.start(client, {
-  youtubeKey: "some-key_here"
+  youtubeKey: "AIzaSyAQKr5kSLqOb9B1ZWxoQIWhLXwkh88Yahw"
 });
 
 client.login("discord_AppToKEn");
