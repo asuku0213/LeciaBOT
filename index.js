@@ -3,29 +3,6 @@ const client = new Discord.Client();
 const config = require("./config.json");
 const PACKAGE = require('./package.json');
 
-client.on('message', message => {
-    if (message.content === 'こんにちは') {
-    	message.reply('こんにちはです！');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'おはよう') {
-    	message.reply('おはようございます！');
-  	}
-});
-
-// Create an event listener for new guild members
-client.on('guildMemberAdd', member => {
-  // Send the message to a designated channel on a server:
-  const channel = member.guild.channels.find('name', 'member-log');
-  // Do nothing if the channel wasn't found on this server
-  if (!channel) return;
-  // Send the message, mentioning the member
-  channel.send(`Welcome to the server, ${member}`);
-});
-
-
 client.on("message", async message => {
   // This event will run on every single message received, from any channel or DM.
   
