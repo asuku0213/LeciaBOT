@@ -102,5 +102,6 @@ client.on("message", (message) => {
     message.channel.send("おはようございます！");
   }
 });
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
