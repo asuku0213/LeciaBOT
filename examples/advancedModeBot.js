@@ -21,7 +21,7 @@ let mprop = {
 mapper.set('387727240047230976', mprop);
 
 Music.start(client, {
-  youtubeKey: "somekey-her/e",        // The youtube api key.
+  youtubeKey: "AIzaSyAQKr5kSLqOb9B1ZWxoQIWhLXwkh88Yahw",        // The youtube api key.
   prefix: settings.prefix,            // Prefix for the commands. Will be used for deafult prefix's for servers.
   botAdmins: ["275147928249827338"],  // List of ID's for admins (bypasses all permissions).
   advancedMode: {                     // The advancedMode object.
