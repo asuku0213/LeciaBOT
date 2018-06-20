@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
-const PREFIX = "='
+const PREFIX = "="
 
 var fortunes = [
     "Yes",
