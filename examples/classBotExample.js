@@ -17,7 +17,7 @@ client.on('ready', () => {
 });
 
 client.music.start(client, {
-  youtubeKey: "some-key_here"
+  youtubeKey: "AIzaSyAQKr5kSLqOb9B1ZWxoQIWhLXwkh88Yahw"
 });
 
 client.login(client.settings.token);
