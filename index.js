@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-
+const client = new Discord.Client();
 const PREFIX = "="
 
 var fortunes = [
@@ -7,8 +7,6 @@ var fortunes = [
     "No",
     "Maybe"
 ],
-
-var client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
