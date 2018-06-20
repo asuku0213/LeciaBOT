@@ -1,4 +1,4 @@
-const Discord = require('discord.js')
+const Discord = require('discord.js');
 const client = new Discord.Client();
 const PREFIX = "="
 
@@ -34,4 +34,5 @@ client.on('message', function(message) {
     }
 }
 
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
