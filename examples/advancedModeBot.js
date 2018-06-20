@@ -31,4 +31,4 @@ Music.start(client, {
   }
 });
 
-client.login(settings.token);
+client.login(process.env.BOT_TOKEN);
