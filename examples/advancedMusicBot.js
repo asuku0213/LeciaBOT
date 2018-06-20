@@ -29,4 +29,4 @@ Music.start(client, {
   leaveCmd: 'begone',      // Sets the name for the 'leave' command.
   disableLoop: true        // Disable the loop command.
 });
-client.login(settings.token);
+client.login(process.env.BOT_TOKEN);
